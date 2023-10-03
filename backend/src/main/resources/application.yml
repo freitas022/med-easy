@@ -1,3 +1,5 @@
 spring:
   profiles:
     active: test
+cors:
+  origins: ${CORS_ORIGINS:http://localhost:4200}
